@@ -1,0 +1,642 @@
+/*======== Web fonts
+============================*/
+@font-face {
+    font-family: 'pt_serifregular';
+    src: url('fonts/ptserif_regular_macroman/PTF55F-webfont.eot');
+    src: url('fonts/ptserif_regular_macroman/PTF55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ptserif_regular_macroman/PTF55F-webfont.woff') format('woff'),
+         url('fonts/ptserif_regular_macroman/PTF55F-webfont.ttf') format('truetype'),
+         url('fonts/ptserif_regular_macroman/PTF55F-webfont.svg#pt_serifregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt_serifbold';
+    src: url('fonts/ptserif_bold_macroman/PTF75F-webfont.eot');
+    src: url('fonts/ptserif_bold_macroman/PTF75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ptserif_bold_macroman/PTF75F-webfont.woff') format('woff'),
+         url('fonts/ptserif_bold_macroman/PTF75F-webfont.ttf') format('truetype'),
+         url('fonts/ptserif_bold_macroman/PTF75F-webfont.svg#pt_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt_serifitalic';
+    src: url('fonts/ptserif_italic_macroman/PTF56F-webfont.eot');
+    src: url('fonts/ptserif_italic_macroman/PTF56F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ptserif_italic_macroman/PTF56F-webfont.woff') format('woff'),
+         url('fonts/ptserif_italic_macroman/PTF56F-webfont.ttf') format('truetype'),
+         url('fonts/ptserif_italic_macroman/PTF56F-webfont.svg#pt_serifitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot');
+    src: url('fonts/opensans_bold_macroman/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_bold_macroman/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fonts/opensans_bold_macroman/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans_bold_macroman/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('fonts/opensans_italic_macroman/OpenSans-Italic-webfont.eot');
+    src: url('fonts/opensans_italic_macroman/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_italic_macroman/OpenSans-Italic-webfont.woff') format('woff'),
+         url('fonts/opensans_italic_macroman/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('fonts/opensans_italic_macroman/OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/opensans_light_macroman/OpenSans-Light-webfont.eot');
+    src: url('fonts/opensans_light_macroman/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_light_macroman/OpenSans-Light-webfont.woff') format('woff'),
+         url('fonts/opensans_light_macroman/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('fonts/opensans_light_macroman/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot');
+    src: url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans_regular_macroman/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot');
+    src: url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('fonts/opensans_semibold_macroman/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*====== Element Styles
+===============================*/
+
+body{
+	font-family: 'pt_serifregular', Georgia, 'Times New Roman', serif!important;
+	line-height:1.5;
+}
+
+h1,h3{
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
+}
+
+h2{
+	font-size:1.714286em;
+	text-transform:capitalize;
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
+}
+
+h4{
+	text-transform:uppercase;
+	font-family: 'open_sanssemibold', Helvetica, Arial, sans-serif!important;
+}
+
+p{
+	font-size:1.142857em;
+}
+
+nav{
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
+}
+
+a {
+	color:inherit;
+}
+
+a:hover{
+	color:#DE1B1B;
+}
+
+footer{
+	background-color:#34394A;
+	color:white;
+	margin-top:40px;
+	border-top:4px solid #3390C4;
+}
+
+/*====== Global Classes
+===============================*/
+
+.categories {
+	font-size:0.785714285714em;
+	text-transform:uppercase;
+}
+
+h5.categories{
+	font-family: 'open_sanssemibold', Helvetica, Arial, sans-serif!important;
+}
+
+ul.categories{
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
+}
+
+.post-meta{
+	font-family: 'open_sanslight', Helvetica, Arial, sans-serif!important;
+}
+
+.tags{
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
+	text-transform:uppercase;
+}
+
+.btn-primary {
+	background-color: #3390C4;
+}
+
+.center-title{
+	display:table-cell;
+	text-align: center; 
+	vertical-align:middle;
+}
+
+/*====== Logos & Icons
+===============================*/
+
+.main-logo {
+	width:150px;
+	margin-top:2px;
+}
+
+/*====== Navbar styles
+===============================*/
+nav{
+	position:relative;
+	z-index:1;
+}
+
+.navbar {
+	border-radius: 0px;
+	text-transform:uppercase;
+	border: 0px;
+}
+
+.navbar-default {
+	background-color:white;
+	border-bottom:2px solid #3390C4;
+}
+
+.navbar-default .navbar-nav>li a {
+	color: #34394A;
+}
+
+.navbar-default .navbar-nav > li  a:hover,
+.navbar-default .navbar-nav > li  a:focus {
+  color: #3390C4;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,.dropdown-menu>li>a:hover {
+	background-color: white;
+	color: #3390C4;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus{
+  background-color: #3390C4;
+}
+  
+#top-navbar li{
+	margin:12.5px 0px 12.5px 0px;
+}
+
+.navbar-form{
+	border: 0px;
+}
+
+.navbar-form .btn-primary:hover,.navbar-default .navbar-nav > .active > a:hover{
+	background-color: #34394A;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #3390C4;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #3390C4;
+}
+
+.dropdown{
+	text-transform:capitalize;
+}
+
+.dropdown-toggle,.dropdown-toggle:hover,.dropdown-toggle:focus{
+	text-decoration:underline!important;
+}
+
+/*====== Carousel Rules
+===============================*/
+
+#header-carousel{
+	margin-top:15px;
+}
+
+.featured{
+	width:100%;
+	height:460px;
+}
+
+.featured{
+	background-color:#34394A;
+}
+
+.featured-title{
+	width:70%;
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:50%;
+	margin-left:-35%;
+}
+
+.featured-title-inner{
+	display:table;
+	width:100%;
+	height:100%;
+}
+
+.carousel-inner  a:hover{
+	text-decoration:none;
+}
+
+.main-title{
+	color:#ffffff!important;
+	text-shadow: 0px 0px 27px #302D4D;
+	font-size:4.285714em;
+	text-transform:capitalize;
+}
+
+
+.carousel-indicators {
+	bottom: 6px;
+}
+
+
+/*====== Post-Summaries
+===============================*/
+
+.post-summary-group-standard hr{
+	margin-top:20px;
+}
+
+.post-summary hr:nth-of-type(1),.post-summary hr:nth-of-type(2){
+	margin-top:32px;
+}  	
+
+.post-meta{
+	margin-top:13px;
+}
+
+.post-summary h2{
+	margin-top:16px;
+}
+
+.post-summary .row{
+	margin-top:16px;
+}
+
+.post-summary-text{
+	margin-top:7px;
+}
+
+.post-summary-text a:hover{
+	text-decoration:none;
+}
+
+
+/*====== Footer
+===============================*/
+
+.footer-title{
+	color:white;
+}
+
+.footer-title{
+	margin-top:35px;
+}
+
+.footing-section .list-group-item{
+	background-color:#2B2B2B;
+	border:none;
+	padding-left:0px;
+}
+
+footer .navbar-toggle{
+	margin-top:-14px;
+}
+
+footer .navbar-collapse{
+	padding-left:0;
+	padding-right:0;
+}
+
+footer .nav>li>a:hover,footer .nav>li>a:focus, footer ul>li>a:hover, footer ul>li>a:focus {
+	background-color:transparent;
+	color:#3390C4;
+}
+
+footer p{
+	font-size:0.785714285714em;
+}
+
+/*====== Single-Post Rules
+===============================*/
+
+.single-post-inner,.search-result{
+	max-width:800px;
+	margin:0 auto;
+}
+
+.single-post h2{
+	font-size:2.571429em;
+}
+
+.single-post-body>*, .single-post-inner .categories, .single-post-inner .post-meta,.single-post-inner .post-title{
+	margin-top:28px;
+}
+
+.single-post-inner>h5{
+	font-size:1.142857em;
+}
+
+.single-post-inner .post-meta{
+	font-size:1.285714em;
+}
+
+.single-post p,.single-post ol{
+	font-size:1.5em;
+}
+
+.single-post blockquote{
+	font-family: 'pt_serifitalic', Georgia, 'Times New Roman', serif!important;
+	font-size:1em;
+}
+
+.single-post .tags{
+	font-size:1em;
+}
+
+.single-post-img{
+	display:block;
+	width:75%;
+	margin-bottom:41px;
+}
+
+.read-next {
+	text-align:right;
+	margin-top:-5px;
+}
+
+.read-more{
+	color:#999;
+}
+
+.read-more .categories{
+	margin-top:14px;
+}
+
+.read-more .post-title{
+	margin-top:17px;
+}
+
+.read-more-icon{
+	margin-top:71px;
+	font-size:1.714286em;
+	color:#3390C4;
+}
+
+.read-previous{
+	margin-top:28px;
+}
+
+.wp-caption{
+	max-width:100%;
+	margin:0 auto;
+}
+
+p.wp-caption-text{
+	width:75%;
+	margin:0 auto;
+	font-family: 'open_sanslight', Helvetica, Arial, sans-serif!important;
+	margin-top:-35px;
+	font-size:1em;
+	padding:0px 10px;
+}
+
+.single-post-body strong{
+	font-family: 'pt_serifbold';
+}
+
+.single-post-body em{
+	font-family: 'pt_serifitalic';
+}
+
+/*====== Categories/Search/Tag Templates
+===============================*/
+
+p.entry-title{
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	color:#999;
+	margin-bottom:-18px;
+}
+
+.min-height .entry-title{
+	margin-bottom:5px;
+}
+
+.min-height{
+	min-height:200px;
+}
+
+
+/*====== Media Queries
+===============================*/
+
+@media screen and (min-width: 1200px) {
+
+.post-summary-text p {
+	max-width:420px;
+}
+
+}
+
+@media screen and (max-width: 1200px) {
+
+.container {
+	width:100%;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+header.main{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+}
+
+@media (max-width:1200px) and (min-width:600px){
+.post-summary-group-standard{
+	max-width:700px;
+	margin:0 auto;
+}
+}
+
+@media screen and (max-width: 750px) {
+
+.featured-title{
+	width:80%;
+	margin-left:-40%;
+}
+
+.carousel-control{
+	width:10%;
+}
+
+.featured{
+	height:380px;
+}
+
+.post-summary hr:nth-of-type(2){
+	margin-top:7px;
+}  	
+
+nav button{
+	margin-top:20px;
+}
+
+.main-logo {
+	width:120px;
+	margin:-3px 0 0 15px;
+}
+
+.navbar-form {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.post-summary-text{
+	float:none;
+	width:100%;
+}
+
+.post-summary-image{
+	float:none!important;
+	width:75%;
+	margin:auto;
+}
+
+.featured{
+	height:320px;
+}
+
+.main-title{
+	font-size:2.571429em;
+}
+}
+
+@media screen and (max-width: 480px) {
+
+.hidden-xxs{
+	display:none;
+}
+
+.featured-title{
+	width:100%;
+	margin-left:-50%;
+}
+
+.featured-title-inner{
+	height:85%;
+}
+
+.main-title{
+	font-size:2.571429em;
+}
+
+.carousel-control{
+	width:7%;
+}
+
+.post-summary-image{
+	width:100%;
+}
+
+.post-summary .row{
+	margin-top:5px;
+}
+
+.featured{
+	height:260px;
+}
+
+.single-post-img,p.wp-caption-text{
+	width:100%;
+}
+
+.single-post-body>*, .single-post-inner .categories, .single-post-inner .post-meta,.single-post-inner .post-title{
+	margin-top:20px;
+}
+
+.single-post h2{
+	font-size:1.714286em;
+}
+
+.single-post-inner>h5{
+	font-size:0.785714285714em;
+}
+
+.single-post-inner .post-meta{
+	font-size:1em;
+}
+
+.single-post p,.single-post ol{
+	font-size:1.142857em;
+}
+
+.single-post .tags{
+	font-size:1em;
+}
+
+.read-more .post-title{
+	font-size:1.285714em;
+}
+
+p.wp-caption-text{
+	font-size:0.785714285714em;
+}
+
+}
