@@ -19,6 +19,6 @@ I'm a code newbie, so in order to build this project I have used components and 
 
 For appropriate use of this theme, the following plug-ins are recommended:
 
-* [Advanced Custom Fields][http://www.advancedcustomfields.com/]: Create a radio button with Field Name "display_on_home_slider" in order to select which posts will be displayed on the home page slider
+* [Advanced Custom Fields](http://www.advancedcustomfields.com/): Create a radio button with Field Name "display_on_home_slider" in order to select which posts will be displayed on the home page slider
 * [Hide Youtube Related Videos](https://wordpress.org/plugins/hide-youtube-related-videos/)
 * [Simple Lightbox](https://wordpress.org/plugins/simple-lightbox/) or equivalent Lightbox plugin
