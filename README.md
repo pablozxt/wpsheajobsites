@@ -13,7 +13,7 @@ I'm a code newbie, so in order to build this project I have used components and 
 * [Twitter Bootstrap](http://getbootstrap.com/)
 * [Fitvids](http://fitvidsjs.com/)
 * Laz Creative's Justin Lazanowski's [code](http://lazcreative.com/blog/adding-swipe-support-to-bootstrap-carousel-3-0/) to make Boostrap's carousel touch responsive
-* [Chris Coyier](http://css-tricks.com/) for all his CSS tricks and PHP functions to help customize Wordpress defaults and for his general awesomeness
+* [Chris Coyier's](http://css-tricks.com/) many CSS tricks, PHP functions and general awesomeness to help customize Wordpress defaults
 
 ##Recommended Plug-ins
 
