@@ -158,6 +158,11 @@ ul.categories{
 .tags{
 	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
 	text-transform:uppercase;
+	color:#3390C4;
+}
+.tags>a:hover{
+	color:#333;
+	text-decoration:none;
 }
 
 .btn-primary {
