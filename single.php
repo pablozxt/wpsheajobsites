@@ -14,7 +14,7 @@
 	<div class="container single-post-inner single-post-body">
 		<?php the_content( ); ?>
 		<p class="tags">
-			 <?php the_tags( '<span class="glyphicon glyphicon-tag"></span>&nbsp;','&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-tag"></span>&nbsp;',' '); ?>
+			 <?php the_tags( '','&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',''); ?>
 		</p>
 	</div>
 	<section class="container single-post-inner read-more">
