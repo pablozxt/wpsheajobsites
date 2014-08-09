@@ -385,6 +385,10 @@ footer p{
 	margin-top:20px;
 }
 
+.wp-caption>a{
+	margin-top:25px;
+}
+
 .single-post-inner>h5{
 	font-size:1.142857em;
 }
@@ -450,6 +454,7 @@ p.wp-caption-text{
 	margin:0 auto;
 	font-family: 'open_sanslight', Helvetica, Arial, sans-serif!important;
 	margin-top:-35px;
+	/*margin-bottom:20px;*/
 	font-size:0.857143em;
 	padding:0px 10px;
 }
