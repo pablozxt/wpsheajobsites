@@ -13,7 +13,7 @@
 	</header>
 	<div class="container single-post-inner single-post-body">
 		<?php the_content( ); ?>
-			 <?php the_tags( '<p class="tags btn btn-default">','</p>&nbsp;&nbsp;&nbsp;<p class="tags btn btn-default">','</p>'); ?>
+		<?php the_tags( '<p class="tags btn btn-default">','</p>&nbsp;&nbsp;&nbsp;<p class="tags btn btn-default">','</p>'); ?>
 	</div>
 	<section class="container single-post-inner read-more">
 		<hr>

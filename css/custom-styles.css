@@ -373,7 +373,7 @@ footer p{
 ===============================*/
 
 .single-post-inner,.search-result{
-	max-width:800px;
+	max-width:700px;
 	margin:0 auto;
 }
 
@@ -381,8 +381,8 @@ footer p{
 	font-size:2.571429em;
 }
 
-.single-post-body>*, .single-post-inner .categories, .single-post-inner .post-meta,.single-post-inner .post-title{
-	margin-top:28px;
+.single-post-body>*, .single-post-inner .categories, .single-post-inner .post-meta,.single-post-inner .post-title,.read-more{
+	margin-top:20px;
 }
 
 .single-post-inner>h5{
@@ -394,7 +394,7 @@ footer p{
 }
 
 .single-post p,.single-post ol{
-	font-size:1.5em;
+	font-size:1.142857em;
 }
 
 .single-post blockquote{
@@ -404,6 +404,7 @@ footer p{
 
 .single-post .tags{
 	font-size:1em;
+	margin-bottom:;
 }
 
 .single-post-img{
@@ -449,7 +450,7 @@ p.wp-caption-text{
 	margin:0 auto;
 	font-family: 'open_sanslight', Helvetica, Arial, sans-serif!important;
 	margin-top:-35px;
-	font-size:1em;
+	font-size:0.857143em;
 	padding:0px 10px;
 }
 
