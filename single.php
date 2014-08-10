@@ -11,10 +11,10 @@
 			<span>by <?php the_author(); ?></span>
 		</div>
 	</header>
-	<div class="container single-post-inner single-post-body">
+	<section class="container single-post-inner single-post-body">
 		<?php the_content( ); ?>
 		<?php the_tags( '<p class="tags btn btn-default">','</p>&nbsp;&nbsp;&nbsp;<p class="tags btn btn-default">','</p>'); ?>
-	</div>
+	</section>
 	<section class="container single-post-inner read-more">
 		<hr>
 		<?php 
