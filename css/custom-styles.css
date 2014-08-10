@@ -124,7 +124,7 @@ a {
 	color:inherit;
 }
 
-a:hover{
+a:hover,.single-post-body a:hover{
 	color:#DE1B1B;
 }
 
@@ -409,6 +409,10 @@ footer p{
 .single-post .tags{
 	font-size:1em;
 	margin-bottom:;
+}
+
+.single-post-body a{
+	color:#3390C4;
 }
 
 .single-post-img{
