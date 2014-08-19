@@ -155,16 +155,6 @@ ul.categories{
 	font-family: 'open_sanslight', Helvetica, Arial, sans-serif!important;
 }
 
-.tags{
-	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
-	text-transform:uppercase;
-	color:#3390C4;
-}
-.tags>a:hover{
-	color:#333;
-	text-decoration:none;
-}
-
 .btn-primary {
 	background-color: #3390C4;
 }
@@ -419,6 +409,16 @@ footer p{
 	display:block;
 	width:75%;
 	margin-bottom:41px;
+}
+
+.tags{
+	font-family: 'open_sansregular', Helvetica, Arial, sans-serif!important;
+	text-transform:uppercase;
+}
+
+.tags>a:hover{
+	color:#333;
+	text-decoration:none;
 }
 
 .read-next {
