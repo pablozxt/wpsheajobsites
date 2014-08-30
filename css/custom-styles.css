@@ -402,7 +402,8 @@ footer p{
 }
 
 .single-post-body a{
-	color:#3390C4;
+	color:#DE1B1B;
+	text-decoration:underline;
 }
 
 .single-post-img{
