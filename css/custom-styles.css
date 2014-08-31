@@ -417,9 +417,13 @@ footer p{
 	text-transform:uppercase;
 }
 
+.tags a{
+	color:#3390C4;
+	text-decoration:none;
+}
+
 .tags>a:hover{
 	color:#333;
-	text-decoration:none;
 }
 
 .read-next {
