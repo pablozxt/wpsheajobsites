@@ -126,6 +126,7 @@ a {
 
 a:hover,.single-post-body a:hover,a:focus,.single-post-body a:focus,a:active,.single-post-body a:active{
 	color:#DE1B1B;
+	text-decoration:underline;
 }
 
 footer{
@@ -318,11 +319,6 @@ nav{
 .post-summary-text{
 	margin-top:7px;
 }
-
-.post-summary-text a:hover{
-	text-decoration:none;
-}
-
 
 /*====== Footer
 ===============================*/
