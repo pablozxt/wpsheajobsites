@@ -192,12 +192,12 @@ nav{
 }
 
 .navbar-default .navbar-nav>li a {
-	color: #34394A;
+	color:#3390C4;
 }
 
 .navbar-default .navbar-nav > li  a:hover,
 .navbar-default .navbar-nav > li  a:focus {
-  color: #3390C4;
+  color:#34394A;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -208,7 +208,7 @@ nav{
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,.dropdown-menu>li>a:hover {
 	background-color: white;
-	color: #3390C4;
+	color: #34394A;
 }
 
 .navbar-default .navbar-nav > .active > a,
