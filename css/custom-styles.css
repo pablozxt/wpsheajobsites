@@ -124,7 +124,7 @@ a {
 	color:inherit;
 }
 
-a:hover,.single-post-body a:hover{
+a:hover,.single-post-body a:hover,a:focus,.single-post-body a:focus,a:active,.single-post-body a:active{
 	color:#DE1B1B;
 }
 
@@ -421,7 +421,7 @@ footer p{
 	text-decoration:none;
 }
 
-.tags>a:hover{
+.tags>a:hover,.tags>a:focus,.tags>a:active{
 	color:#333;
 }
 
