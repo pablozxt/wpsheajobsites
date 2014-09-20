@@ -187,3 +187,18 @@ function redirect_subscriber(){
     return home_url();
   }
 }
+
+//add a capability to the contributor role
+function add_theme_caps() {
+		//get contributor role
+		$role = get_role( 'contributor' );
+		//set $cap as the capability to add
+		$cap = 'upload_files';
+		//check if the capability has already been set. Capabilities get written to the database
+		//this avoids writing to the database every time if the capability already exists
+		if(!array_key_exists ($cap , $role->capabilities)){
+			//add capability
+			$role->add_cap( 'upload_files' );
+		}
+}
+add_action( 'admin_init', 'add_theme_caps');
