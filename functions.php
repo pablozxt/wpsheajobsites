@@ -167,6 +167,15 @@ function cc_hide_admin_bar() {
   }
 }
 
+
+//Redirect subscribers to home page after log in
+add_action('login_redirect','redirect_subscriber');
+function redirect_subscriber(){
+  if(!current_user_can('edit_posts')){
+    return home_url();
+  }
+}
+
 //Redirect subscribers to home page after profile update
 add_action( 'profile_update', 'tgm_custom_profile_redirect', 12 );
 /**
@@ -176,16 +185,10 @@ add_action( 'profile_update', 'tgm_custom_profile_redirect', 12 );
 function tgm_custom_profile_redirect() {
 	if (!current_user_can('edit_posts')){
 		wp_redirect( trailingslashit( home_url() ) );
+	} else {
+		wp_redirect( trailingslashit( home_url('wp-admin/users.php') ) );
 	}
 	exit;
-}
-
-//Redirect subscribers to home page after log in
-add_action('login_redirect','redirect_subscriber');
-function redirect_subscriber(){
-  if(!current_user_can('edit_posts')){
-    return home_url();
-  }
 }
 
 //add a capability to the contributor role
